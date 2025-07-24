@@ -130,16 +130,6 @@ function LayoutWrapper({ children }: { children: React.ReactNode }) {
   );
 }
 
-export const metadata = {
-  title: 'Mike Castillo',
-  description: 'Designer & Developer',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
-    { media: '(prefers-color-scheme: dark)', color: '#000000' },
-  ],
-}
-
 export default function RootLayout({
   children,
 }: {
